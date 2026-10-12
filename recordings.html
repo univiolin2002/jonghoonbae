@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recordings — Jong Hoon Bae</title>
+<meta name="description" content="Recordings conducted by Jong Hoon Bae, including Ian Krouse's Symphony No. 5 'A Journey Towards Peace' with the Seocho Philharmonia on Naxos.">
+<meta property="og:title" content="Recordings — Jong Hoon Bae">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="index.html">Jong Hoon Bae</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="biography.html">Biography</a>
+      <a href="recordings.html" aria-current="page">Recordings</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
+  <div class="wrap" id="navmobile"></div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <div class="opening">
+      <h1 class="opening__name">Recordings</h1>
+      <p class="opening__role">Jong Hoon Bae &middot; Conductor</p>
+      <div class="opening__line"></div>
+    </div>
+
+    <section class="section">
+      <div class="record">
+        <div>
+          <div class="plate"><span>[ Cover ]</span></div>
+        </div>
+        <div>
+          <h2 style="margin-bottom:10px">Ian Krouse &mdash; Symphony No.&nbsp;5<br><em>A Journey Towards Peace</em></h2>
+          <p class="measure" style="color:var(--muted)">Commissioned by Jong Hoon Bae to mark the seventieth anniversary of the outbreak of the Korean War, Krouse&rsquo;s fifth symphony sets Walt Whitman alongside the Korean melody <em>Arirang</em> and fragments of Copland and <em>Amazing Grace</em>. The recording made the Seocho Philharmonia the first Korean orchestra to appear on the Naxos label.</p>
+          <p class="record__meta">
+            <b>Orchestra</b> &nbsp; Seocho Philharmonia, with the UCLA Brass Quintet<br>
+            <b>Conductor</b> &nbsp; Jong Hoon Bae<br>
+            <b>Label</b> &nbsp; Naxos &middot; 8.559907<br>
+            <b>Released</b> &nbsp; November 2021
+          </p>
+          <div class="links" style="margin-top:26px">
+            <a class="link" href="https://www.naxos.com/CatalogueDetail/?id=8.559907" target="_blank" rel="noopener">Naxos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <figure class="quote">
+      <blockquote>The performances by the Seocho Philharmonia and UCLA Brass Quintet are splendid.</blockquote>
+      <figcaption>Guy Rickards &middot; Gramophone &middot; January 2022</figcaption>
+    </figure>
+
+    <section class="split" style="margin-top:84px">
+      <p class="split__label">A note on credits</p>
+      <div class="split__body">
+        <p class="measure">Some third-party catalogue entries and streaming services credit the orchestra on this recording incorrectly. The ensemble is the <strong>Seocho Philharmonia</strong>, as stated in the Naxos catalogue and in the <em>Gramophone</em> review text. Corrections are in progress with the affected databases.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <div>
+      <div class="foot__mark">Jong Hoon Bae</div>
+    </div>
+    <div>
+      <h4>Representation</h4>
+      <address>
+        Universal Violins Inc.<br>
+        Los Angeles, California<br>
+        <a href="mailto:owensparkley@gmail.com">owensparkley@gmail.com</a>
+      </address>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <p><a href="https://lavsfoundation.org">LAVS Foundation</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('navtoggle');
+  var nav = document.getElementById('nav');
+  var slot = document.getElementById('navmobile');
+  if (!btn || !nav || !slot) return;
+  btn.addEventListener('click', function () {
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    if (open) { nav.classList.remove('nav--open'); nav.style.display = ''; }
+    else { slot.appendChild(nav); nav.classList.add('nav--open'); nav.style.display = 'flex'; }
+  });
+})();
+</script>
+
+</body>
+</html>

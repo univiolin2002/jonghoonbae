@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jong Hoon Bae — Conductor</title>
+<meta name="description" content="Jong Hoon Bae is Artistic Director and Principal Conductor of the Seocho Philharmonia in Seoul, and President of the LAVS Foundation in Los Angeles.">
+<meta property="og:title" content="Jong Hoon Bae — Conductor">
+<meta property="og:description" content="Artistic Director and Principal Conductor of the Seocho Philharmonia.">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="/">Jong Hoon Bae</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="biography.html">Biography</a>
+      <a href="recordings.html">Recordings</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
+  <div class="wrap" id="navmobile"></div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <div class="opening">
+      <h1 class="opening__name">Jong Hoon Bae</h1>
+      <p class="opening__role">Conductor</p>
+      <div class="opening__line"></div>
+    </div>
+
+    <div class="lede">
+      <div>
+        <p class="lede__statement">Artistic Director and Principal Conductor of the Seocho Philharmonia in Seoul, and President of the LAVS Foundation in Los Angeles.</p>
+      </div>
+      <div class="lede__body">
+        <p>In July 2026 he completed a seven-year traversal of all 107 symphonies of Joseph Haydn &mdash; performed over seven seasons by one orchestra in one hall, the first cycle of its kind in Korea.</p>
+        <p>An American conductor trained in Vienna, St&nbsp;Petersburg and Los Angeles, he has conducted memorial concerts for Korean War veterans in twenty-two United Nations participating nations since 2009.</p>
+        <div class="links" style="margin-top:28px">
+          <a class="link" href="biography.html">Read the biography</a>
+          <a class="link" href="recordings.html">Recordings</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="plate plate--wide"><span>[ Photograph &mdash; in concert ]</span></div>
+      <p class="caption">Jong Hoon Bae with the Seocho Philharmonia, Banpo Simsan Art Hall, Seoul.</p>
+    </div>
+
+    <figure class="quote">
+      <blockquote>The performances by the Seocho Philharmonia and UCLA Brass Quintet are splendid.</blockquote>
+      <figcaption>Guy Rickards &middot; Gramophone &middot; January 2022</figcaption>
+    </figure>
+
+    <section class="split" style="border-top:none">
+      <p class="split__label">Seocho Philharmonia</p>
+      <div class="split__body">
+        <p class="measure">Founded in 2016 as the resident orchestra of the Seocho Cultural Foundation in Seoul, the Seocho Philharmonia marked its tenth anniversary in 2026. Under Bae&rsquo;s direction the orchestra completed its Haydn cycle, recorded for Naxos, and appears annually at the Seoripul Music Festival.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">The Haydn cycle</p>
+      <div class="split__body">
+        <p class="measure">Begun in 2020 and concluded in July 2026, the cycle set out all 107 Haydn symphonies across seven seasons &mdash; the first undertaking of its kind by a single Korean orchestra in a single hall, and performed from memory.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">Commemorative work</p>
+      <div class="split__body">
+        <p class="measure">Since 2009 Bae has conducted memorial and thanksgiving concerts for Korean War veterans across twenty-two United Nations participating nations &mdash; a programme sustained for more than fifteen years. To mark the seventieth anniversary of the war&rsquo;s outbreak he commissioned Ian Krouse&rsquo;s Symphony No.&nbsp;5, <em>A Journey Towards Peace</em>, recorded for Naxos in 2021.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">Los Angeles</p>
+      <div class="split__body">
+        <p class="measure">As President of the LAVS Foundation, Bae is building an exchange between Los Angeles and Seoul &mdash; placing young musicians from the city&rsquo;s conservatories as soloists with the Seocho Philharmonia, with reciprocal appearances for Seoul-based artists in Los Angeles.</p>
+        <div class="links" style="margin-top:22px">
+          <a class="link" href="https://lavsfoundation.org">LAVS Foundation</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <div>
+      <div class="foot__mark">Jong Hoon Bae</div>
+    </div>
+    <div>
+      <h4>Representation</h4>
+      <address>
+        Universal Violins Inc.<br>
+        Los Angeles, California<br>
+        <a href="mailto:owensparkley@gmail.com">owensparkley@gmail.com</a>
+      </address>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <p><a href="https://lavsfoundation.org">LAVS Foundation</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('navtoggle');
+  var nav = document.getElementById('nav');
+  var slot = document.getElementById('navmobile');
+  if (!btn || !nav || !slot) return;
+  btn.addEventListener('click', function () {
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    if (open) { nav.classList.remove('nav--open'); nav.style.display = ''; }
+    else { slot.appendChild(nav); nav.classList.add('nav--open'); nav.style.display = 'flex'; }
+  });
+})();
+</script>
+
+</body>
+</html>

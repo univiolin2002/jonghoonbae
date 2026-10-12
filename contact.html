@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Jong Hoon Bae</title>
+<meta name="description" content="Engagement enquiries and press materials for the conductor Jong Hoon Bae. Representation: Universal Violins Inc., Los Angeles.">
+<meta property="og:title" content="Contact — Jong Hoon Bae">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="index.html">Jong Hoon Bae</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="biography.html">Biography</a>
+      <a href="recordings.html">Recordings</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
+  <div class="wrap" id="navmobile"></div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <div class="opening">
+      <h1 class="opening__name">Contact</h1>
+      <p class="opening__role">Engagements and press</p>
+      <div class="opening__line"></div>
+    </div>
+
+    <section class="split" style="margin-top:58px;border-top:none">
+      <p class="split__label">Representation</p>
+      <div class="split__body">
+        <p class="measure">All engagement enquiries &mdash; guest conducting, residencies, recordings and exchange programmes &mdash; are handled by Universal Violins Inc. in Los Angeles.</p>
+        <address style="font-style:normal;color:var(--muted)">
+          Universal Violins Inc.<br>
+          Los Angeles, California<br>
+          <a href="mailto:owensparkley@gmail.com" style="color:inherit">owensparkley@gmail.com</a>
+        </address>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">Press materials</p>
+      <div class="split__body">
+        <p class="measure">Approved biographies in three lengths and high-resolution photographs are available on request. Please use only the biography supplied here; earlier texts in circulation contain details that have not been verified.</p>
+        <div class="links" style="margin-top:20px">
+          <a class="link" href="mailto:owensparkley@gmail.com?subject=Press%20materials%20%E2%80%94%20Jong%20Hoon%20Bae">Request press materials</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">Seocho Philharmonia</p>
+      <div class="split__body">
+        <p class="measure">Enquiries concerning the orchestra&rsquo;s own season in Seoul should be directed to the Seocho Cultural Foundation.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">LAVS Foundation</p>
+      <div class="split__body">
+        <p class="measure">Enquiries concerning the Foundation&rsquo;s concerts and programmes in Los Angeles should be directed to the Foundation.</p>
+        <div class="links" style="margin-top:20px">
+          <a class="link" href="https://lavsfoundation.org">lavsfoundation.org</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <div>
+      <div class="foot__mark">Jong Hoon Bae</div>
+    </div>
+    <div>
+      <h4>Representation</h4>
+      <address>
+        Universal Violins Inc.<br>
+        Los Angeles, California<br>
+        <a href="mailto:owensparkley@gmail.com">owensparkley@gmail.com</a>
+      </address>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <p><a href="https://lavsfoundation.org">LAVS Foundation</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('navtoggle');
+  var nav = document.getElementById('nav');
+  var slot = document.getElementById('navmobile');
+  if (!btn || !nav || !slot) return;
+  btn.addEventListener('click', function () {
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    if (open) { nav.classList.remove('nav--open'); nav.style.display = ''; }
+    else { slot.appendChild(nav); nav.classList.add('nav--open'); nav.style.display = 'flex'; }
+  });
+})();
+</script>
+
+</body>
+</html>
