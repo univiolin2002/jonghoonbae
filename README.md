@@ -14,6 +14,7 @@ publishes automatically.
 | `index.html` | Home |
 | `biography.html` | Biography |
 | `recordings.html` | Recordings |
+| `upcoming.html` | Upcoming engagements |
 | `contact.html` | Contact |
 | `styles.css` | All styles |
 | `_headers` | Cloudflare cache and security headers |
@@ -50,6 +51,10 @@ Verified review quotations (Naxos 8.559907):
 Do not use: any "Guinness World Record holder" claim (submission reported as in
 progress, not awarded); the BBC Music Magazine review as a blanket endorsement
 (it calls the Symphonies of Strings "less convincingly performed").
+
+The 6 February 2027 Oxford concert (Sohmen Concert Hall, Schwarzman Centre) is
+stated by Jong Hoon Bae; the hall is verified, the date is not yet listed by
+Oxford — confirm against the Centre's programme when published.
 
 Still unverified — do not add: birthplace; guest-conducting engagements and
 years; photographer names for the concert photographs (credited to the Seocho
