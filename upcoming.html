@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upcoming — Jong Hoon Bae</title>
+<meta name="description" content="Forthcoming engagements of the conductor Jong Hoon Bae: Haydn at the University of Oxford, February 2027; the complete Beethoven and Mahler symphonies with the Seocho Philharmonia.">
+<meta property="og:title" content="Upcoming — Jong Hoon Bae">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="index.html">Jong Hoon Bae</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="biography.html">Biography</a>
+      <a href="recordings.html">Recordings</a>
+      <a href="upcoming.html" aria-current="page">Upcoming</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
+  <div class="wrap" id="navmobile"></div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <div class="opening">
+      <h1 class="opening__name">Upcoming</h1>
+      <p class="opening__role">Jong Hoon Bae &middot; Conductor</p>
+      <div class="opening__line"></div>
+    </div>
+
+    <section class="split" style="margin-top:58px;border-top:none">
+      <p class="split__label">Oxford</p>
+      <div class="split__body">
+        <p class="measure">On 6 February 2027 Jong Hoon Bae and the Seocho Philharmonia appear at the invitation of the University of Oxford with a programme of Haydn symphonies at the Sohmen Concert Hall, the 500-seat hall of the Stephen A. Schwarzman Centre for the Humanities, opened in 2025.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">Seoul &middot; 2027</p>
+      <div class="split__body">
+        <p class="measure">Following the completion of the Haydn cycle, the Seocho Philharmonia begins two further traversals in 2027: from March, a monthly cycle of the complete Beethoven symphonies, each paired with a Beethoven concerto; and the first season of a three-year cycle of the Mahler symphonies.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <p class="split__label">Haydn &middot; 2032</p>
+      <div class="split__body">
+        <p class="measure">A recorded cycle of the complete Haydn symphonies, prepared with historically informed performance scholars at Oxford, is in preparation for release ahead of the tercentenary of Haydn&rsquo;s birth in 2032.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:58px">
+      <p class="eyebrow">Season 2027</p>
+      <ul class="plainlist">
+        <li><span class="yr">6 Feb</span><span>Haydn symphonies &mdash; Sohmen Concert Hall, University of Oxford</span></li>
+        <li><span class="yr">Feb</span><span>New Year Concert &mdash; Seocho Philharmonia, Seoul</span></li>
+        <li><span class="yr">Mar&ndash;</span><span>The complete Beethoven symphonies, monthly, with the concertos &mdash; Seocho Philharmonia, Seoul</span></li>
+        <li><span class="yr">2027&ndash;29</span><span>The complete Mahler symphonies &mdash; Seocho Philharmonia, Seoul</span></li>
+      </ul>
+      <p class="caption" style="margin-top:18px">Dates and programmes are announced by the Seocho Cultural Foundation and may change.</p>
+    </section>
+
+    <section class="section" style="padding-top:58px">
+      <div class="links">
+        <a class="link" href="recordings.html">Recordings</a>
+        <a class="link" href="contact.html">Engagement enquiries</a>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <div>
+      <div class="foot__mark">Jong Hoon Bae</div>
+    </div>
+    <div>
+      <h4>Representation</h4>
+      <address>
+        Universal Violins Inc.<br>
+        Los Angeles, California<br>
+        <a href="mailto:owensparkley@gmail.com">owensparkley@gmail.com</a>
+      </address>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <p><a href="https://lavsfoundation.org">LAVS Foundation</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('navtoggle');
+  var nav = document.getElementById('nav');
+  var slot = document.getElementById('navmobile');
+  if (!btn || !nav || !slot) return;
+  btn.addEventListener('click', function () {
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    if (open) { nav.classList.remove('nav--open'); nav.style.display = ''; }
+    else { slot.appendChild(nav); nav.classList.add('nav--open'); nav.style.display = 'flex'; }
+  });
+})();
+</script>
+
+</body>
+</html>
