@@ -21,22 +21,39 @@ publishes automatically.
 
 ## Editorial rules
 
-Biography copy on this site is restricted to verified material. The following
-must **not** be added without documentary confirmation:
+Biography copy on this site is restricted to material confirmed in writing by
+Jong Hoon Bae (October 2026) or in a documented source. Verified and in use:
 
-- UCLA degree titles and years; years taught at UCLA
-- Founding and tenure years of the Republic of Korea Armed Forces Symphony Orchestra
-- Official English name and year of the Republic of Korea honour
-- Birthplace; years of study in Vienna and St Petersburg
+- Preferred English name: **Jong Hoon Bae** (three words), everywhere
+- UCLA: Master of Music, conducting, 2000; doctoral studies (DMA candidacy,
+  2004 — degree not completed, so never "DMA" or "Dr."); taught the graduate
+  conducting studio in 2003 as interim instructor during Donald Neuen's sabbatical
+- Vienna, University of Music and Performing Arts, 1989–1992; Mariinsky Opera and
+  St Petersburg Conservatory, 2000
+- Republic of Korea Armed Forces Symphony Orchestra: founded January 2010;
+  founding Music Director and Principal Conductor to December 2012
+- Civil Merit Medal (국민포장), 27 July 2025, conferred by the President of the
+  Republic of Korea
+- Artistic Director of the UN Veterans Memorial Peace Concert since 2010
+- US resident since 1993; US citizen
 
-The only verified review quotation is:
+Verified review quotations (Naxos 8.559907):
 
-> The performances by the Seocho Philharmonia and UCLA Brass Quintet are splendid.
-> — Guy Rickards, *Gramophone*, January 2022 (Naxos 8.559907)
+> The performances by the Seocho Philharmonia and UCLA Brass Quintet are splendid
+> and the recording resonant and full.
+> — Guy Rickards, *Gramophone*, January 2022
 
-Do not use: the "finest North American orchestras" quotation (unverified in the
-English-language sources), any "Guinness World Record holder" claim (submission
-reported as in progress, not awarded), or the BBC Music Magazine star rating.
+> All you would expect [from] a top ranking North American orchestra. Vivid in
+> colours when required, but here also offering a wide range of muted shades.
+> — David Denton, *David's Review Corner*, November 2021 (reproduced on naxos.com)
+
+Do not use: any "Guinness World Record holder" claim (submission reported as in
+progress, not awarded); the BBC Music Magazine review as a blanket endorsement
+(it calls the Symphonies of Strings "less convincingly performed").
+
+Still unverified — do not add: birthplace; guest-conducting engagements and
+years; photographer names for the concert photographs (credited to the Seocho
+Cultural Foundation pending names).
 
 Third-party databases credit Naxos 8.559907 to the wrong orchestra. The correct
 ensemble is the **Seocho Philharmonia**; corrections are in progress.
